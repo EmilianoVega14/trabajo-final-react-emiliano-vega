@@ -1,0 +1,10 @@
+.cardwidget a {
+  display: flex;
+  align-items: center;
+  width: 60px;
+  text-decoration: none;
+  margin-right: 20px;
+  color: black;
+  gap: 15px;
+  font-size: 30px;
+}
