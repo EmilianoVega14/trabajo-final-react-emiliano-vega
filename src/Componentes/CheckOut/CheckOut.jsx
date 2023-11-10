@@ -130,7 +130,6 @@ export const CheckOut = () => {
               Tu Id de orden es: <strong> {ordenId} </strong>
             </p>
             <p className="cO_Msj">
-              {" "}
               ** Nos pondremos en contacto a la brevedad.
             </p>
             <Link to="/" className="cO_SeguirComprando">

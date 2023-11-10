@@ -16,13 +16,15 @@
   margin-top: 35px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 30px;
 }
 
 .nB_B {
-  font-size: 120px;
+  font-size: 130px;
   color: #619136;
   margin-left: 80px;
   text-decoration: none;
+  /* border: solid 1px blue; */
 }
 
 .navBar_Items {
@@ -57,6 +59,14 @@
   transition: all 0.5s ease-out;
   background-color: #619136;
   border-radius: 10px;
+}
+
+/* ------------ ITEM LIST CONTEINER ------------ */
+.iLc_Greetings {
+  text-align: center;
+  color: #619136;
+  font-size: 60px;
+  margin-bottom: 40px;
 }
 /* ------------ ITEM ------------ */
 
@@ -152,12 +162,14 @@
   font-size: 40px;
   margin-top: 50px;
   font-weight: 500;
+  width: 500px;
 }
 
 .iD_InformacionProductoPrecio {
   font-size: 30px;
   font-weight: 500;
   margin-top: 10px;
+  width: 500px;
 }
 .iD_InformacionTituloDetalle {
   text-decoration: underline;
@@ -171,6 +183,7 @@
   margin-top: 20px;
   margin-bottom: 50px;
   font-size: 13px;
+  width: 500px;
 }
 
 .iD_BtnsDspAgregarCarrito {
@@ -206,7 +219,7 @@
   display: flex;
   align-content: center;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   margin-left: 35px;
   width: 400px;
   padding: 10px;
@@ -491,12 +504,6 @@
   text-decoration: underline;
 }
 
-.cO_Confirmacion {
-  width: 80%;
-
-  color: #619136;
-}
-
 .cO_ContenedorSaludo {
   width: 900px;
   height: 500px;
@@ -505,12 +512,14 @@
   align-items: center;
   justify-content: center;
   margin-right: 280px;
+  border: solid 1px red;
 }
 
 .cO_MGracias {
   font-size: 40px;
   color: #619136;
   margin-bottom: 20px;
+  border: solid blue 1px;
 }
 
 .cO_OrdenId {

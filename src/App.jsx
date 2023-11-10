@@ -15,8 +15,14 @@ function App() {
         <CarritoProvider>
           <NavBar />
           <Routes>
-            <Route path="/" element={<ItemListConteiner />} />
-            <Route path="/productos" element={<ItemListConteiner />} />
+            <Route
+              path="/"
+              element={<ItemListConteiner greetings="Black Mamba" />}
+            />
+            <Route
+              path="/productos"
+              element={<ItemListConteiner greetings="Black Mamba" />}
+            />
             <Route path="/item/:id" element={<ItemDetailConteiner />} />
             <Route
               path="/productos/:idCategoria"

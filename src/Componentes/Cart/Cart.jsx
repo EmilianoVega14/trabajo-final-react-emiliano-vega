@@ -21,7 +21,6 @@ export const Cart = () => {
             marginTop: "80px",
             textAlign: "center",
           }}
-          n
         >
           <h2
             style={{

@@ -21,12 +21,6 @@ export const ItemDetailConteiner = () => {
       .catch((error) => console.log(error));
   }, [id]);
 
-  /* useEffect(() => {
-    getUnProductoPorId(id).then((respuesta) => {
-      setItem(respuesta);
-    });
-  }, [id]); */
-
   return <div>{item && <ItemDetail item={item} />}</div>;
 };
 

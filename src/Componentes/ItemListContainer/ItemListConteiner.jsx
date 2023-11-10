@@ -9,7 +9,7 @@ import { db } from "../../service/config";
 // esta logica tiene el objetivo solamente de pedir los productos a la base de datos y setear la informacion en un estado.
 // Lo que queremos es tomar la informacion y setearlo en otro componente que se encargue de mostrarlo en una lista.
 
-export const ItemListConteiner = () => {
+export const ItemListConteiner = ({ greetings }) => {
   const [productos, setProductos] = useState([]);
   const [titulo, setTitulo] = useState("productos");
 
@@ -48,6 +48,7 @@ export const ItemListConteiner = () => {
 
   return (
     <div>
+      <h1 className="iLc_Greetings">{greetings}</h1>
       <ItemList productos={productos} titulo={titulo} />
     </div>
   );

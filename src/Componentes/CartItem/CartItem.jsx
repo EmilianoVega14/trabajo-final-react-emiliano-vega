@@ -11,7 +11,7 @@ export const CartItem = ({ item, cantidad }) => {
         <div className="cI_ContenedorInformacion">
           <div className="cI_InformacionProducto">
             <h3>{item.nombre}</h3>
-            <p> $ {item.precio}</p>
+            <p>$ {item.precio}</p>
           </div>
 
           <div className="cI_ContenedorCantidad">
