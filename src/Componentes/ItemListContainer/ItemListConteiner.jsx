@@ -32,19 +32,9 @@ export const ItemListConteiner = ({ greetings }) => {
         setProductos(nuevosProductos);
       })
       .catch((error) => console.log("Error al obtener productos:", error));
-  }, [idCategoria]);
 
-  /* useEffect(() => {
-    getProductos().then((res) => {
-      if (categoria) {
-        setProductos(res.filter((prod) => prod.categoria === categoria));
-        setTitulo(categoria);
-      } else {
-        setProductos(res);
-        setTitulo("Productos");
-      }
-    });
-  }, [categoria]); */
+    setTitulo(idCategoria ? `${idCategoria}` : `Productos`);
+  }, [idCategoria]);
 
   return (
     <div>

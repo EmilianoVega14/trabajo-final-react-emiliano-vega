@@ -59,9 +59,11 @@
   transition: all 0.5s ease-out;
   background-color: #619136;
   border-radius: 10px;
+  color: white;
 }
 
 /* ------------ ITEM LIST CONTEINER ------------ */
+
 .iLc_Greetings {
   text-align: center;
   color: #619136;
@@ -72,15 +74,15 @@
 
 .container {
   max-width: 1200px;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   margin-left: 100px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 30px;
 }
 .container h2 {
-  font-size: 3.6rem;
-  letter-spacing: 20px;
-  color: #749756;
+  font-size: 2.6rem;
 }
 
 .itemList {
@@ -88,7 +90,6 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   padding-block: 2rem;
-  align-items: center;
 }
 
 .contenedorPadreItem {
@@ -96,46 +97,58 @@
   flex-direction: column;
   height: 360px;
   width: 15rem;
-  border: rgb(216, 215, 215) solid 1.5px;
-  border-radius: 15px;
+
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px gray;
 }
 
 .contenedorPadreItem img {
   width: 260px;
-  height: 252px;
+  height: 200px;
+  display: flex;
+  align-items: center;
 }
 
 .contenedorInformacionItem {
   display: flex;
   flex-direction: column;
   width: 200;
-  height: 200;
+  height: 230;
   align-items: flex-start;
   text-align: start;
   padding: 5px;
   flex-wrap: nowrap;
-  background-color: #749756;
+  background-color: white;
   padding: 10px;
 }
-.contenedorInformacionItem h5 {
+.contenedorInformacionItem h3 {
   font-size: 1.1rem;
-  display: flex;
-  flex-wrap: wrap;
-  color: white;
+  padding-top: 10px;
+  color: black;
   width: 220px;
-  height: 80px;
-  letter-spacing: 3px;
+  height: 60px;
+  text-align: center;
+  /* border: solid 1px orange; */
 }
-.precio {
-  font-size: 1.5rem;
+.contenedorInformacionItem p {
+  font-size: 22px;
+  padding-left: 10px;
 }
 
 .contenedorInformacionItem a {
   color: white;
+  margin-bottom: 10px;
+  display: flex;
+  padding: 5px;
+  background-color: #619136;
+  text-decoration: none;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 75px;
+  border-radius: 5px;
 }
 
 .contenedorInformacionItem p {
-  color: white;
   margin: 3px;
 }
 
@@ -148,10 +161,10 @@
   gap: 20px;
   margin-top: 60px;
 }
-.iD_ContenedorImagen {
+
+.iD_Imagen {
   width: 400px;
-  height: 400px;
-  background-color: rgb(197, 195, 195);
+  height: 380px;
 }
 .iD_ContenedorInformacionProducto {
   width: 650px;
